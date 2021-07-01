@@ -1,3 +1,5 @@
+// Make a template for generating pdf 
+// The return has to be a string 
 module.exports = ({ name, price1, price2, receiptId}) => {
     const today = new Date();
 return `
